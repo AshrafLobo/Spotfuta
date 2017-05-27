@@ -1,0 +1,363 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotfuta</title>
+	
+	<style>
+		html{
+			margin:0;
+			padding:0
+		}
+		body{
+			background:#F05927 !important;
+		}
+		.font{
+			font-family: 'Open Sans', 'Lato', 'Roboto' , sans-serif !important;
+		}
+		.btn{
+			border:solid medium transparent !important; 
+			border-radius:50px !important;
+			display:inline-block;
+			vertical-align: middle;
+			text-align:center;
+			cursor:pointer;
+		}
+		.login{
+			width:100px;
+			font-size:7pt;
+			font-weight:400;
+			background:#FFF;
+			color:#F05927;
+			padding:10px 20px;
+			margin-right:10px;
+		}
+		.login:hover{
+			border:solid medium #FFF !important;
+			background:none;
+			color:#FFF;
+		}
+		.register{
+			width:150px;
+			font-size:10pt;
+			font-weight:400;
+			background:#FF0000;
+			color:#FFF;
+			padding:15px;
+			margin-right:10px;
+		}
+		.register:hover{
+			border:solid medium #000 !important;
+			background:none;
+			color:#000;
+		}
+		.input{
+			margin:5px auto !important;
+			border-radius:25px !important;
+			border:solid thin #000 !important;
+			color:#FF0000 !important;
+			padding:10px !important;
+			font-weight:400 !important;
+		}
+		.checkbox{
+			margin:0 !important;
+		}
+		.add_margin{
+			margin:20px 10px 10px 0px !important;
+			font-weight:700 !important;
+			font-size:11pt;
+		}
+		.remove_margin{
+			margin:0 !important;
+		}
+		footer h6, footer span{
+			font-size:10pt;
+		}
+		footer a{
+			color:#FFF;
+		}
+		footer a:hover{
+			color:#000;
+		}
+	</style>
+	
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:300,400,700,800|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/foundation.css" />
+  </head>
+  <body>
+    <header class="row align-middle align-justify" style="max-width:100% !important;height:50px;background:#F05927;border-bottom:solid 2px #000;">
+		<div class="column small-4">
+			<img src="resources/spotfuta_logo.jpeg" alt="Spotfuta Logo" style="height:48px"/>
+		</div>
+		
+		<div class="column small-6">
+			<div class="row align-middle align-right" >
+				<div class="column medium-4 text-right">
+					<button class="btn form login">
+						LOGIN
+					</button>
+				</div>
+				
+				<div class="column medium-4 show-for-medium">
+					<div class="row align-middle align-left" style="border-left:thin solid #FFF;">
+						<div class="column medium-3 large-2" style="margin-left:10px;">
+							<a href="#"><img src="resources/facebook.png" alt="Facebook" style="width:100%;max-width:35px;"/></a>
+						</div>
+							
+						<div class="column medium-3 large-2">
+							<a href="#"><img src="resources/google_plus.png" alt="Google Plus" style="width:100%;max-width:35px;"/></a>
+						</div>
+							
+						<div class="column medium-3 large-2">
+							<a href="#"><img src="resources/twitter.png" alt="Twitter" style="width:100%;max-width:35px;"/></a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</header>
+	
+	<div class="row column" style="position:relative;max-height:600px;overflow-y:hidden;">
+		<img data-interchange="[resources/background_small.png, small], [resources/background_medium.png, medium], [resources/background.png, large]" alt="Background">
+		
+		<div class="row" style="width:100%;position:absolute;z-index:999;top:20px;">
+			<div class="column small-12 large-6">
+				<div class="row align-center">
+					<div class="small-10 medium-8 large-10 column" style="margin:20px auto;">
+						<h2 class="font" style="font-weight:800;color:#FFF;">HOW IT WORKS</h2>
+						<h5 class="font text-justify" style="font-weight:300;color:#FFF;">
+						SpotFuta is an online skill contest with a winner awarded at the end of every week. You as our customer can contest for various prizes of your choice and the determining factor is your ability in our game of skill
+						</h5>
+					</div>
+				</div>
+				
+				<div class="row align-center">
+					<div class="small-10 medium-8 large-10 column" style="margin:20px auto;">
+						<h2 class="font" style="font-weight:800;color:#FFF;"><img src="resources/tick.svg" style="width:75%;max-width:35px;"/> Pick a Team</h2>
+						<h2 class="font" style="font-weight:800;color:#FFF;"><img src="resources/tick.svg" style="width:75%;max-width:35px;"/> Play Spotfuta</h2>
+						<h2 class="font" style="font-weight:800;color:#FFF;"><img src="resources/tick.svg" style="width:75%;max-width:35px;"/> Win</h2>
+					</div>
+				</div>
+			</div>
+			
+			<div class="column large-6 show-for-large">
+				<div class="row align-center">
+					<div class="column medium-10">
+						<!--Form-->
+						<form class="text-center" style="width:400px;height:500px;background:#FFF;border-radius:10px;margin:20px auto;padding:10px 0;">
+							<div class="row align-center">
+								<div class="column small-10">
+									<h3 class="font text-center" style="color:#FF0000;font-weight:800;">JOIN US TODAY</h3>
+								</div>
+							</div>
+							
+							<div class="row align-center">
+								<div class="column small-10">
+									<input class="font input" type="text" value="Name"/>
+								</div>
+							</div>
+							
+							<div class="row align-center">
+								<div class="column small-10">
+									<input class="font input" type="text" value="Phone Number"/>
+								</div>
+							</div>
+							
+							<div class="row align-center">
+								<div class="column small-10">
+									<input class="font input" type="text" value="Email"/>
+								</div>
+							</div>
+
+							<div class="row align-center" style="margin-top:20px;">
+								<div class="column small-10 text-left">
+									<input class="checkbox" type="checkbox"><span class="font" style="margin:10px;color:#FF0000;font-weight:400;">I verify that I am 18 years of age</span></input>
+								</div>
+							</div>
+							
+							<div class="row align-center">
+								<div class="column small-10 text-left">
+									<input class="checkbox" type="checkbox"><span class="font" style="margin:10px;color:#FF0000;font-weight:400;">I have read and agreed to the <a style="color:#000;font-weight:500;">terms and conditions</a></span></input>
+								</div>
+							</div>
+							
+							<div class="row align-center">
+								<div class="column small-10 text-center">
+									<hr style="border-color:#000;"/>
+								</div>
+							</div>
+						
+							<div class="row align-center">
+								<div class="column small-10 text-center">
+									<input class="btn register" type="submit" value="REGISTER"/>
+								</div>
+							</div>
+							
+							<div class="row align-center">
+								<div class="column small-10 text-center">
+									<h6 class="font" style="font-weight:800;color:#FF0000;margin:10px;">We will never share your details</h6>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+	<div class="row column hide-for-large" style="background:#F05927">
+		<div class="row align-center">
+			<div class="column small-10 medium-6">
+				<!--Form-->
+				<form class="text-center" style="background:#FFF;border-radius:10px;margin:20px auto;padding:10px 0;">
+					<div class="row align-center">
+						<div class="column small-10">
+							<h3 class="font text-center" style="color:#FF0000;font-weight:800;">JOIN US TODAY</h3>
+						</div>
+					</div>
+					
+					<div class="row align-center">
+						<div class="column small-10">
+							<input class="font input" type="text" value="Name"/>
+						</div>
+					</div>
+					
+					<div class="row align-center">
+						<div class="column small-10">
+							<input class="font input" type="text" value="Phone Number"/>
+						</div>
+					</div>
+					
+					<div class="row align-center">
+						<div class="column small-10">
+							<input class="font input" type="text" value="Email"/>
+						</div>
+					</div>
+
+					<div class="row align-center" style="margin-top:20px;">
+						<div class="column small-10 text-left">
+							<input class="checkbox" type="checkbox"><span class="font" style="margin:10px;color:#FF0000;font-weight:400;">I verify that I am 18 years of age</span></input>
+						</div>
+					</div>
+					
+					<div class="row align-center">
+						<div class="column small-10 text-left">
+							<input class="checkbox" type="checkbox"><span class="font" style="margin:10px;color:#FF0000;font-weight:400;">I have read and agreed to the <a style="color:#000;font-weight:500;">terms and conditions</a></span></input>
+						</div>
+					</div>
+					
+					<div class="row align-center">
+						<div class="column small-10 text-center">
+							<hr style="border-color:#000;"/>
+						</div>
+					</div>
+				
+					<div class="row align-center">
+						<div class="column small-10 text-center">
+							<input class="btn register" type="submit" value="REGISTER"/>
+						</div>
+					</div>
+					
+					<div class="row align-center">
+						<div class="column small-10 text-center">
+							<h6 class="font" style="font-weight:800;color:#FF0000;margin:10px;">We will never share your details</h6>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row align-center" style="background:#000;padding:20px;">
+		<div class="column small-11 medium-10">
+			<div class="row align-center  align-middle">
+				<div class="column text-center">
+					<a href="#"><img src="resources/game-changer-logo.jpg"/></a>
+				</div>
+				
+				<div class="column text-center">
+					<a href="#"><img src="resources/logo.png"/></a>
+				</div>
+				
+				<div class="column text-center">
+					<a href="#"><img src="resources/travilla-logo.png" style="width:200px"/></a>
+				</div>
+				
+				<div class="column text-center">
+					<a href="#"><img src="resources/Wazito-FC-Badge-0-Kenya-National-Super-League.png"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer class="row align-center" style="background:#F05927;height:100%;padding:10px;">
+		<div class="font column small-11 medium-8 large-3" style="color:#FFF;">
+			<div class="row align-center">
+				<div class="column small-10">
+					<h6 class="add_margin">spotfuta LTD</h6>
+					<hr style="border:solid thin #FFF;margin:0 0 10px 0;"/>
+					<h6 class="remove_margin">Message/Contact us</h6>
+					<h6 class="remove_margin">info@spotfuta.co.ke</h6>
+					<h6 class="remove_margin">Call us: +254 727 398 536</h6>
+					
+					<div class="row column" style="margin-top:10px;">
+						<a href="#"><img src="resources/facebook.svg" style="width:75%;max-width:35px;"/><span style="margin:0 10px;">Facebook</span></a>
+					</div>
+					<div class="row column" style="margin-top:10px;">
+						<a href="#"><img src="resources/twitter.svg" style="width:75%;max-width:35px;"/><span style="margin:0 10px;">Twitter</span></a>
+					</div>
+					<div class="row column" style="margin-top:10px;">
+						<a href="#"><img src="resources/instagram.svg" style="width:75%;max-width:35px;"/><span style="margin:0 10px;">Instagram</span></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+		<div class="font column small-11 medium-8 large-3" style="color:#FFF;">
+			<div class="row align-center">
+				<div class="column small-10">
+					<h6 class="add_margin">SUPPORT AND TRUST</h6>
+					<hr style="border:solid thin #FFF;margin:0 0 10px 0;"/>
+					<h6 class="remove_margin"><a href="#">Terms and conditions</a></h6>
+					<h6 class="remove_margin"><a href="#">Responsible gaming</a></h6>
+					<h6 class="remove_margin"><a href="#">How to play</a></h6>
+					<h6 class="remove_margin" style="font-weight:700;">Deposit to your account with</h6>
+					<div class="row column" style="margin-top:10px;">
+						<img src="resources/mpesa.png" style="width:75%;max-width:35px;"/><span style="margin:0 10px;">Paybill Number 909023</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="font column small-11 medium-8 large-3" style="color:#FFF;">
+			<div class="row align-center">
+				<div class="column small-10">
+					<h6 class="add_margin">LEGAL AND COMPLIANCE</h6>
+					<hr style="border:solid thin #FFF;margin:0 0 10px 0;"/>
+					<h6  class="remove_margin text-justify">This forum is only open to persons over the age of 18 years. Gambling may have adverse effects if not taken in moderation.</h6>
+					<h6>Copyright &copy; 2017 spotfuta - All rights reserved &copy;</h6>
+				</div>
+			</div>	
+		</div>
+		
+		<div class="font column small-11 medium-8 large-3" style="color:#FFF;">
+			<div class="row align-center">
+				<div class="column small-10">
+					<h6 class="add_margin">LICENSE</h6>
+					<hr style="border:solid thin #FFF;margin:0 0 10px 0;"/>
+					<h6  class="remove_margin text-justify">Tread Block E.A Ltd, the provider of this website, is licensed by BCLB(Betting Control and Licensing Board of Kenya) under the Betting, Lotterires and Gaming Act, Cap 131, Laws of Kenya under license number:806.</h6>
+					<h6>Copyrigh &copy; 2017 spotfuta - All rights reserved &copy;</h6>
+				</div>
+			</div>	
+		</div>
+	</footer>
+	<script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
